@@ -1,7 +1,7 @@
 // 一些依赖库
 let http = require("http"), 
     https= require("https"),
-       c = require('child_process');
+       c = require('child_process'),
     iconv = require('iconv-lite'),              
     superagent = require("superagent"),         
     cheerio = require("cheerio"),               
