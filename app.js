@@ -8,7 +8,7 @@ let http = require("http"),
     fs=require("fs");                           
     
 let urlsArray = [];                 //存放小说每一章节的网址
-const pageUrls='https://www.*.com/79_79883/';  //该小说所在的目录地址
+const pageUrls='https://www.woquge.com/79_79883/';  //该小说所在的目录地址
 
 //主程序
 function start(){
@@ -34,7 +34,7 @@ function start(){
  				for(let i = 0 ; i < curPageUrls.length ; i++){
           			//查找每一目录下的链接
               		let articleUrl = curPageUrls.eq(i).find("a").attr('href');
-          			urlsArray.push("https://www.*.com/79_79883/"+articleUrl);
+          			urlsArray.push(pageUrls+articleUrl);
         		}
  				//判断text文件夹存不存在
 	 			fs.exists("./test.txt", function(exists){
