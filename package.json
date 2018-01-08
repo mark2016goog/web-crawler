@@ -1,0 +1,28 @@
+{
+  "name": "easypc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "child_process": "^1.0.2",
+    "eventproxy": "^1.0.0",
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "iconv-lite": "^0.4.19",
+    "request": "^2.83.0",
+    "server": "^1.0.15",
+    "superagent": "^3.8.2",
+    "superagent-charset": "^1.2.0",
+    "url": "^0.11.0"
+  }
+}
