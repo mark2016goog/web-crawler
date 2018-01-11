@@ -8,7 +8,7 @@ let http = require("http"),
     fs=require("fs");                           
     
 let urlsArray = [];                 //存放小说每一章节的网址
-const pageUrls='https://www.woquge.com/79_79883/';  //该小说所在的目录地址
+const pageUrls='https://www.*.com/79_79883/';  //该小说所在的目录地址
 
 //主程序
 function start(){
