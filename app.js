@@ -4,8 +4,7 @@ let http = require("http"),
        c = require('child_process'),
     iconv = require('iconv-lite'),              
     superagent = require("superagent"),         
-    cheerio = require("cheerio"),               
-    fs=require("fs");                           
+    cheerio = require("cheerio");                                       
     
 let urlsArray = [];                 //存放小说每一章节的网址
 const pageUrls='https://www.*.com/79_79883/';  //该小说所在的目录地址
