@@ -1,5 +1,6 @@
 // 一些依赖库
 let https= require("https"),
+    fs  = require("fs"),
        c = require('child_process'),
     iconv = require('iconv-lite'),              
     superagent = require("superagent"),         
